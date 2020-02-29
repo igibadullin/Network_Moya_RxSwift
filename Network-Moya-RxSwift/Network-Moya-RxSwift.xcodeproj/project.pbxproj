@@ -19,8 +19,6 @@
 		8B28BEF723CC72B800FAD60C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B28BEAF23CC72B700FAD60C /* Main.storyboard */; };
 		8B28BEF823CC72B800FAD60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B28BEB123CC72B700FAD60C /* Assets.xcassets */; };
 		8B28BEF923CC72B800FAD60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B28BEB123CC72B700FAD60C /* Assets.xcassets */; };
-		8B28BEFA23CC72B800FAD60C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28BEB323CC72B700FAD60C /* ViewController.swift */; };
-		8B28BEFB23CC72B800FAD60C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28BEB323CC72B700FAD60C /* ViewController.swift */; };
 		8B28BEFC23CC72B800FAD60C /* UserProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28BEB623CC72B700FAD60C /* UserProfileSettings.swift */; };
 		8B28BEFD23CC72B800FAD60C /* UserProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28BEB623CC72B700FAD60C /* UserProfileSettings.swift */; };
 		8B28BEFE23CC72B800FAD60C /* BusyCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28BEB723CC72B700FAD60C /* BusyCache.swift */; };
@@ -87,6 +85,7 @@
 		8B28BF3B23CC72B800FAD60C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B28BEEA23CC72B800FAD60C /* InfoPlist.strings */; };
 		8B28BF3C23CC72B800FAD60C /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28BEEC23CC72B800FAD60C /* String+Localizable.swift */; };
 		8B28BF3D23CC72B800FAD60C /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28BEEC23CC72B800FAD60C /* String+Localizable.swift */; };
+		A80196CF240B05DE004C5D27 /* KeyboardTrackableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80196CD240B05DE004C5D27 /* KeyboardTrackableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +111,6 @@
 		8B28BEAE23CC72B700FAD60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B28BEB023CC72B700FAD60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B28BEB123CC72B700FAD60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B28BEB323CC72B700FAD60C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B28BEB623CC72B700FAD60C /* UserProfileSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileSettings.swift; sourceTree = "<group>"; };
 		8B28BEB723CC72B700FAD60C /* BusyCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusyCache.swift; sourceTree = "<group>"; };
 		8B28BEB823CC72B700FAD60C /* Configurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
@@ -150,6 +148,7 @@
 		8B28BEEC23CC72B800FAD60C /* String+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
 		8B28BEED23CC72B800FAD60C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8B28BEEE23CC72B800FAD60C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A80196CD240B05DE004C5D27 /* KeyboardTrackableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardTrackableViewController.swift; sourceTree = "<group>"; };
 		C79C24D49F28634C8063AE72 /* Pods-Network-Moya-RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network-Moya-RxSwift.release.xcconfig"; path = "Target Support Files/Pods-Network-Moya-RxSwift/Pods-Network-Moya-RxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		DCB3BB3FA5CEC62EEDAD1E5F /* Pods-Network-Moya-RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network-Moya-RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Network-Moya-RxSwift/Pods-Network-Moya-RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		F8EAD2CE136FE74026C5B3EC /* Pods-Network-Moya-RxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network-Moya-RxSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-Network-Moya-RxSwiftTests/Pods-Network-Moya-RxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -229,7 +228,7 @@
 		8B28BEB223CC72B700FAD60C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B28BEB323CC72B700FAD60C /* ViewController.swift */,
+				A80196CD240B05DE004C5D27 /* KeyboardTrackableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -628,7 +627,6 @@
 				8B28BF1423CC72B800FAD60C /* UIColorExtension.swift in Sources */,
 				8B28BF0C23CC72B800FAD60C /* BaseProvider.swift in Sources */,
 				8B28BF1623CC72B800FAD60C /* UIViewControllerExtension.swift in Sources */,
-				8B28BEFA23CC72B800FAD60C /* ViewController.swift in Sources */,
 				8B28BEFE23CC72B800FAD60C /* BusyCache.swift in Sources */,
 				8B28BF3223CC72B800FAD60C /* LoadingIndicator.swift in Sources */,
 				8B28BF0623CC72B800FAD60C /* AuthProvider.swift in Sources */,
@@ -640,6 +638,7 @@
 				8B28BF0223CC72B800FAD60C /* Cache.swift in Sources */,
 				8B28BF2823CC72B800FAD60C /* KeyboardManager.swift in Sources */,
 				8B28BF0423CC72B800FAD60C /* EndpointConstants.swift in Sources */,
+				A80196CF240B05DE004C5D27 /* KeyboardTrackableViewController.swift in Sources */,
 				8B28BEF023CC72B800FAD60C /* AppDelegate.swift in Sources */,
 				8B28BF3423CC72B800FAD60C /* AlertControllerService.swift in Sources */,
 				8B28BF2E23CC72B800FAD60C /* FutureFeature.xcdatamodeld in Sources */,
@@ -669,7 +668,6 @@
 				8B28BF1F23CC72B800FAD60C /* Moya+RxSwift.swift in Sources */,
 				8B28BF3323CC72B800FAD60C /* LoadingIndicator.swift in Sources */,
 				8B28BF0323CC72B800FAD60C /* Cache.swift in Sources */,
-				8B28BEFB23CC72B800FAD60C /* ViewController.swift in Sources */,
 				8B28BF2923CC72B800FAD60C /* KeyboardManager.swift in Sources */,
 				8B28BF1723CC72B800FAD60C /* UIViewControllerExtension.swift in Sources */,
 				8B28BF0B23CC72B800FAD60C /* BaseProjectProvider.swift in Sources */,
